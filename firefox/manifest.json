@@ -1,0 +1,33 @@
+{
+	"name": "LinQR",
+	"version": "1.0",
+	"description": "Generates QRCode of the current URL for viewing on mobile devices",
+  "manifest_version": 2,
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_popup": "qrcode.html",
+		"default_title": "LinQR"
+	},
+  "page_action": {
+    "browser_style": true,
+    "default_icon": {
+      "24": "icon.png"
+    },
+    "default_title": "LinQR",
+    "default_popup": "qrcode.html"
+  },
+	"background": {
+	  "scripts": [
+		"background.js"
+	  ]
+	},
+	"permissions": [
+		"activeTab"
+	],
+	"icons": {
+	  "16": "icon-16.png",
+	  "24": "icon-24.png",
+	  "128": "icon-128.png",
+	  "512": "icon-512.png"
+	}
+}
