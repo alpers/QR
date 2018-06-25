@@ -1,5 +1,4 @@
 /// <reference path="qrcode.js" />
-
 function getCurrentTabUrl(callback) {
   var queryInfo = {
     active: true,
@@ -14,14 +13,11 @@ function getCurrentTabUrl(callback) {
 }
 
 document.addEventListener('DOMContentLoaded', function () {
-
   getCurrentTabUrl(function (url) {
     var qrcode = new QRCode(document.getElementById("qrcode"), {
       width: 120,
       height: 120
     });
-    
     qrcode.makeCode(url);
-
   });
 });
