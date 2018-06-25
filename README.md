@@ -8,7 +8,7 @@ You can choose any of them.
 
 ### Bookmark &#9733;
 
-First, add a button to your bookmarks. Set address as **bookmark/linqr.js** Then, click bookmark to get the QR Code of page you have just opened.
+First, add a button to your bookmarks. Set address as given code at **bookmark/linqr.js** Then, click bookmark to get the QR Code of page you have just opened.
 
 <img height="300" src="linqr.gif">
 
