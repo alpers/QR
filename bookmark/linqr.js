@@ -4,6 +4,9 @@ javascript: (function() {
     qm.setAttribute('id', 'linqrm');
     qm.setAttribute('class', 'modal');
     qm.style.position = 'fixed';
+    qm.style.display = 'inline-block';
+    qm.style.width = '320px';
+    qm.style.height = '320px';
     qm.style.zIndex = 999999;
     qm.style.left = 0;
     qm.style.top = 0;
