@@ -15,8 +15,8 @@ function getCurrentTabUrl(callback) {
 document.addEventListener('DOMContentLoaded', function () {
   getCurrentTabUrl(function (url) {
     var qrcode = new QRCode(document.getElementById("qrcode"), {
-      width: 120,
-      height: 120
+      width: 300,
+      height: 300
     });
     qrcode.makeCode(url);
   });
