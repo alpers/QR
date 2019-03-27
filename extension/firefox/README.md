@@ -1,0 +1,1 @@
+qrcode.js source: https://github.com/davidshimjs/qrcodejs/blob/master/qrcode.js
