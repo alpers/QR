@@ -1,5 +1,3 @@
-## Linqr
+# DEPRECATED QR Code
 
-Scan QR Code, click to text to copy, then share content!
-
-*developing*
+This is no longer supported, please consider using default qr code generator/reader of popular browsers instead.
